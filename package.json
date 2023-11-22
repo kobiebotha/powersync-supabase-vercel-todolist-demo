@@ -21,6 +21,7 @@
     "@mui/material": "^5.14.16",
     "@mui/x-data-grid": "^6.17.0",
     "@supabase/supabase-js": "^2.38.4",
+    "@vercel/analytics": "^1.1.1",
     "formik": "^2.4.5",
     "js-logger": "^1.6.1",
     "lodash": "^4.17.21",

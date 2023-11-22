@@ -4,6 +4,7 @@ import { Rubik } from 'next/font/google';
 import './globals.css';
 import { ThemeProviderContainer } from '@/components/providers/ThemeProviderContainer';
 import { DynamicSystemProvider } from '@/components/providers/DynamicSystemProvider';
+import { Analytics } from '@vercel/analytics/react';
 
 const rubik = Rubik({ subsets: ['latin'], display: 'swap' });
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <ThemeProviderContainer>
           <DynamicSystemProvider>{children}</DynamicSystemProvider>
         </ThemeProviderContainer>
+        <Analytics />
       </body>
     </html>
   );
