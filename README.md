@@ -2,7 +2,7 @@
 
 **Deploy to Vercel**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpowersync-ja%2Fpowersync-supabase-vercel-todolist-demo&project-name=powersync-supabase-vercel-demo&repository-name=powersync-supabase-vercel-demo&demo-title=PowerSync%20NextJS%20App&demo-description=NextJS%20offline-first%20demo%20using%20Supabase%20and%20PowerSync&demo-url=https%3A%2F%2Fgithub.com%2Fpowersync-ja%2Fpowersync-supabase-vercel-todolist-demo&demo-image=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F147553714%3Fs%3D200%26v%3D4)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpowersync-ja%2Fpowersync-supabase-vercel-todolist-demo&project-name=powersync-supabase-vercel-demo&repository-name=powersync-supabase-vercel-demo&demo-title=PowerSync%20NextJS%20App&demo-description=NextJS%20offline-first%20demo%20using%20Supabase%20and%20PowerSync&demo-url=https%3A%2F%2Fgithub.com%2Fpowersync-ja%2Fpowersync-supabase-vercel-todolist-demo&demo-image=https%3A%2F%2Fuploads-ssl.webflow.com%2F651d89402147985dc475ff48%2F655dc65e63f0529b22e92a3b_img-ja-powersync-logo-vercel-001.png)
 
 ## Note: Alpha Release
 
