@@ -7,9 +7,9 @@ import { NextRequest, NextResponse } from 'next/server';
  */
 export async function GET(request: NextRequest): Promise<NextResponse<SupabaseConfig>> {
   // TODO add any required auth logic if necessary to secure these variables
-  const PowerSyncPublicInstance = 'https://651b7fa9c8f4175a3764d8c2.powersync.journeyapps.com'
-  const PowerSyncPublicSupabaseApi = 'https://cnoejntmxxserasrdoyo.supabase.co'
-  const PowerSyncPublicSupabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNub2VqbnRteHhzZXJhc3Jkb3lvIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTA4MTUxNDYsImV4cCI6MjAwNjM5MTE0Nn0.78W3WLxQbkkZtjVu2iM66dP1vizP7U8xdziMOZYoR3c' 
+  const PowerSyncPublicInstance = 'https://64d392172a3c226cddbd5070.powersync.journeyapps.com'
+  const PowerSyncPublicSupabaseApi = 'https://jrimaqxlgrpjipgssldo.supabase.co'
+  const PowerSyncPublicSupabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpyaW1hcXhsZ3JwamlwZ3NzbGRvIiwicm9sZSI6ImFub24iLCJpYXQiOjE2OTE1ODY5MTAsImV4cCI6MjAwNzE2MjkxMH0.K-Qb-YFz0oVpLshUEezGU-Do-sX08zKqBzVccDoZp_Y' 
   return NextResponse.json(
     {
       supabaseUrl: process.env.SUPABASE_URL || PowerSyncPublicSupabaseApi,
